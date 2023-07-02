@@ -1,5 +1,13 @@
+import { Outlet } from 'react-router-dom';
+import Navigation from './components/Navigation';
+
 function App() {
-  return <h1 className="text-3xl font-bold">Hello world!</h1>;
+  return (
+    <>
+      <Navigation />
+      <Outlet />
+    </>
+  );
 }
 
 export default App;
