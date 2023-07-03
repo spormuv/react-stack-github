@@ -30,7 +30,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className="flex justify-center pt-10 mx-auto h-[calc(100vh-50px)]">
+    <div className="flex justify-center pt-10 mx-auto h-[calc(100vh-70px)]">
       {isError && (
         <p className="text-center text-red-600">Something went wrong...</p>
       )}
@@ -38,7 +38,7 @@ const HomePage = () => {
       <div className="relative w-[560px] max-w-[560px] mx-10">
         <input
           type="text"
-          className="border py-2 px-4 w-full h-[42px] mb-2 outline-none"
+          className="border border-gray-500 py-2 px-4 w-full h-[42px] mb-2 outline-none rounded"
           placeholder="Search Github Username..."
           value={search}
           onChange={e => setSearch(e.target.value)}

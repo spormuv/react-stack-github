@@ -23,7 +23,7 @@ const RepoCard = ({ repo }: { repo: IRepo }) => {
   };
 
   return (
-    <div className="border py-3 px-5 rounded mb-2 hover:shadow-md hover:bg-gray-200 transition-all">
+    <div className="border py-3 px-5 rounded mb-2 bg-white hover:shadow-md hover:bg-gray-100 transition-all">
       <a href={repo.html_url} target="_blank">
         <h2 className="font-bold text-lg">{repo.full_name}</h2>
         <p className="text-sm">
