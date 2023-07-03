@@ -5,7 +5,9 @@ const FavouritesPage = () => {
 
   if (favoutires.length === 0) {
     return (
-      <p className="text-center font-semibold text-xl mt-5">No favoutires</p>
+      <p className="text-center font-semibold text-xl mt-5 text-gray-600">
+        No favoutires
+      </p>
     );
   }
 

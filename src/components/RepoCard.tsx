@@ -37,14 +37,14 @@ const RepoCard = ({ repo }: { repo: IRepo }) => {
             className="py-2 px-4 mr-2 bg-yellow-400 rounded hover:shadow-md transition-all mt-5"
             onClick={addToFavorite}
           >
-            Add
+            Add to Favourites
           </button>
         ) : (
           <button
             className="py-2 px-4 bg-red-400 rounded hover:shadow-md transition-all mt-5"
             onClick={removeFromFavorite}
           >
-            Remove
+            Remove from Favourites
           </button>
         )}
       </a>
